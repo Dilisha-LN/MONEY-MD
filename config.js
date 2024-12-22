@@ -5,25 +5,8 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "eQNAEZjY#YsQLnCTuSUSKmT1_ZeB-Y60UwEEzCkrkP_66n1oxAb8",  // ADD Your Session Id 
-MODE: process.env.MODE || "public",  // Add Your Bot Mode (groups/privet/public)
-PREFIX: process.env.PREFIX || ".",   // Add Your Custom Prefix 
-OWNER_REACT: process.env.OWNER_REACT || "true", //add true or false
-BOT_NAME: process.env.BOT_NAME || "MONEY-MD",
-///=================When editing, do not accidentally delete anything !!CUSTOM-SETTING-CONFIG=====================
-AUTO_VOICE: process.env.AUTO_VOICE || "true", //add true or false
-AUTO_STICKER: process.env.AUTO_STICKER || "true", //add true or false
-AUTO_REPLY: process.env.AUTO_REPLY || "true", //add true or false
-ANTI_LINK: process.env.ANTI_LINK || "true", //add true or false
-ANTI_BAD: process.env.ANTI_BAD || "true", //add true or false
-FAKE_RECORDING: process.env.FAKE_RECORDING || "true", //add true or false
-AUTO_REACT: process.env.AUTO_REACT || "true", //add true or false
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //add true or false
-//====================ANYTHING SRILANKAN NO1 WHATSAPP BOT MONEY MD POWED BY KING DILISHA ==============================//
-GOOGLE_CX: process.env.GOOGLE_CX || "AIzaSyD93IeJsouK51zjKgyHAwBIAlqr-a8mnME", 
-PASTEBIN_API_KEY: process.env.PASTEBIN_API_KEY || "uh8QvO6vQJGtIug9WvjdTAPx_ZAFJAxn",
-OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
-///=================When editing, do not accidentally delete anything !!ALIVE-CONFIG================================
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/ZNcSVKw/251.jpg", //add alive img url
-ALIVE_MSG: process.env.ALIVE_MSG || "MULTI DEVICE WHATSAPP BOT IN SUPER MONEY MD", //add alive msg  
+SESSION_ID: process.env.SESSION_ID || "eQNAEZjY#YsQLnCTuSUSKmT1_ZeB-Y60UwEEzCkrkP_66n1oxAb8",
+ALIVE_IMG : process.env.ALIVE_IMG || "https://i.ibb.co/ZNcSVKw/251.jpg",
+ALIVE_MSG : process.env.ALIVE_MSG || "*MONEY-MD 🤍 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭⚡*\n\n*🔔𝐈'𝐦 𝐀𝐥𝐢𝐯𝐞 𝐍𝐨𝐰🎠*\n\n*⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : KING DILISHA",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 };
